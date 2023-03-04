@@ -8,7 +8,7 @@ const routes: Routes = [
   { path: "linechart", component: LinechartComponent},
   { path: "barchart", component: BarchartComponent},
   { path: "about", component: AboutComponent},
-  {path: "**", component: LinechartComponent}
+  { path: "**", component: LinechartComponent}
 ];
 
 @NgModule({
