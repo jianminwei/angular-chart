@@ -4,12 +4,22 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AuthService } from './auth.service';
+import { LinechartComponent } from './linechart/linechart.component';
+import { AboutComponent } from './about/about.component';
+import { BarchartComponent } from './barchart/barchart.component';
+
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
-  providers: [AuthService],
+  declarations: [
+    AppComponent, 
+    LinechartComponent, AboutComponent, BarchartComponent
+  ],
+
+  imports: [
+    BrowserModule, 
+    AppRoutingModule, 
+    HttpClientModule],
+    
   bootstrap: [AppComponent],
 })
 export class AppModule {}
