@@ -1,7 +1,4 @@
 import { Component } from '@angular/core';
-import { Chart, registerables } from 'chart.js';
-import { Coin } from './coin';
-
 
 @Component({
   selector: 'app-root',
