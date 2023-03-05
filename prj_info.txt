@@ -9,5 +9,23 @@
 3. Run the application
 
     ng serve --open 
-    
+
+
+
+4. To add a new Angular component:
+
+    ng g c  component_name 
+
+5. To add a new Service:
+
+    ng g s service_name 
+
+6. To add a new Interface:
+
+    ng g interface interface_name 
+
+7. To add a new Class:
+
+    ng g class class_name
+
 
