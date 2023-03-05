@@ -6,3 +6,8 @@
 
     json-server --watch db.json
 
+3. Run the application
+
+    ng serve --open 
+    
+

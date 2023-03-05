@@ -24,6 +24,12 @@
       { "year": 2020, "count": 4800 },
       { "year": 2021, "count": 5100 },
       { "year": 2022, "count": 5500 }
+    ],
+
+    "employees":[
+      { "firstName":"John", "lastName":"Doe" },
+      { "firstName":"Anna", "lastName":"Smith" },
+      { "firstName":"Peter", "lastName":"Jones" }
     ]
 
   }

@@ -10,7 +10,9 @@ export class PiechartComponent implements OnInit {
   chartRendered:boolean = false;
   chart: any = [];
 
-  constructor() { }
+  constructor() { 
+    Chart.register(...registerables);
+  }
 
   ngOnInit(): void {
     this.createChart();

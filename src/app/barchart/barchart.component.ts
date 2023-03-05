@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { Chart, registerables } from 'chart.js';
-import { Coin } from '../coin';
 import { DataService } from '../data.service';
 import { Enrollment } from '../enrollment';
 
@@ -28,8 +27,9 @@ export class BarchartComponent implements OnInit {
       this.counts = this.result.map((enrollment) => enrollment.count);
       this.years = this.result.map((enrollment) => enrollment.year);
 
-      // console.log(this.coinPrice);
-      // console.log(this.coinName);
+      // console.log(this.result);
+      // console.log(this.counts);
+      // console.log(this.years);
 
       this.chart = new Chart('canvas', {
         type: 'bar',
